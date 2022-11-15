@@ -2,6 +2,9 @@
 
 **Testing a DHT11 (Temperature and Humidity) sensor's functionality and accuracy**<br />
 
+**Presentation Link**<br />
+https://docs.google.com/presentation/d/1Fyp5c-M4NpTzMYAk1pag0nPLJdvXexUlIqtM7gTfvus/edit?usp=sharing<br />
+
 ![Capture](https://user-images.githubusercontent.com/118258337/201899130-bd39c6a1-0162-44bc-96b9-6426570f8720.PNG)<br />
 
 **General Sensor Information:**<br />
@@ -18,6 +21,7 @@
 -Accuracy: ±2℃<br />
 -Uses an NTC thermistor <br />
 -1℃ resolution<br />
+![000](https://user-images.githubusercontent.com/118258337/201901384-672f0a5e-fdbe-4596-b4b2-bac12d8e48c4.PNG)<br />
 
 **Humidity Sensor Information:**<br />
 -Range: 20%-90% RH (Relative Humidity)<br />
@@ -25,6 +29,7 @@
 -±1% RH accuracy per year<br />
 -Uses a resistive polymer to detect humidity<br />
 -1% RH resolution<br />
+![00](https://user-images.githubusercontent.com/118258337/201901392-7dfab3f8-2c83-404a-891b-63f3e89d5111.PNG)![0](https://user-images.githubusercontent.com/118258337/201901400-1a957dfa-c690-479f-bc53-373575a40e6d.PNG)<br />
 
 **Hardware setup:**<br />
 -3 nodes on the sensor are attached to their respective points in an arduino<br />
@@ -77,5 +82,16 @@ Temperature:<br />
 Humidity<br />
 ![10](https://user-images.githubusercontent.com/118258337/201899219-747cdb43-16b9-4df2-b855-94e498dd9b8f.PNG)
 ![11](https://user-images.githubusercontent.com/118258337/201899229-74cc8368-678e-45b2-b235-c61e198b0d8b.PNG)<br />
+
+**Range Testing**<br />
+In order to test the range of the sensor, I blew my breath on it to find the maximum potiential humidity which flatlined at 100%<br/>
+To test the minimum temperature, I placed the sensor in the freezer for a period and it flatlined at 0 degrees Celcius.<br />
+Unable to test minimum humidity due to it being very difficult to fully remove the humidity from any area, and unable to test the maximum temperature out of fear of damaging the sensor<br />
+
+**Conclusion**<br />
+The sensor's resolution and measurement accuracys line up well with the more advance and higher precision sensor<br />
+Humidity was 5% within the value of the more accurate sensor<br />
+The DHT11 is a decently accurate sensor and can definitely be employed for home usage (Not for usage in a lab setting)<br />
+
 
 
