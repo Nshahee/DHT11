@@ -34,7 +34,24 @@
 
 **Software:**<br />
 Coded in arduino
+#include <dht.h>
 
+dht DHT;
+
+#define DHT11_PIN 7
+
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop(){
+  int chk = DHT.read11(DHT11_PIN);
+  Serial.print("Temperature = ");
+  Serial.println(DHT.temperature);
+  Serial.print("Humidity = ");
+  Serial.println(DHT.humidity);
+  delay(2000);
+}
 **Experiment:**<br />
 -The temperature sensor is sent into an air sealed box<br />
 -To test the humidity, a spray bottle is used in a small hole providing mist into the closed system<br />
