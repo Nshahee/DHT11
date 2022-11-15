@@ -75,11 +75,11 @@ After running the experiment once, the results found that since the two sensors 
 ![7](https://user-images.githubusercontent.com/118258337/201899195-b8f44788-4e50-41c8-8635-2b1d155db734.PNG)<br />
 
 **Resolution of sensor**<br />
-Temperature:<br />
+Temperature (Control->10 seconds of exposure to heat) <br />
 ![9](https://user-images.githubusercontent.com/118258337/201899206-2808a1c0-d918-42b9-ac2c-7f4fcfb928d7.PNG)
 ![12](https://user-images.githubusercontent.com/118258337/201899235-eb404060-4451-483b-b213-514616293b8e.PNG)<br />
 
-Humidity<br />
+Humidity (Control->5 sprays)<br />
 ![10](https://user-images.githubusercontent.com/118258337/201899219-747cdb43-16b9-4df2-b855-94e498dd9b8f.PNG)
 ![11](https://user-images.githubusercontent.com/118258337/201899229-74cc8368-678e-45b2-b235-c61e198b0d8b.PNG)<br />
 
